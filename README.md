@@ -21,14 +21,10 @@ This will run the container and expose the web server on port 8081. You can acce
 
 4. Push Docker Image to ECR (AWS) <br>
 To push the Docker image to AWS Elastic Container Registry (ECR): <br>
-
 Login to AWS ECR: <br>
 aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <aws_account_id>.dkr.ecr.<region>.amazonaws.com <br>
-
 Tag the Docker Image: <br>
 docker tag my-nginx-image:latest <aws_account_id>.dkr.ecr.<region>.amazonaws.com/my-nginx-repo:latest <br>
-
 Push the Docker Image: <br>
 docker push <aws_account_id>.dkr.ecr.<region>.amazonaws.com/my-nginx-repo:latest <br>
-
 Replace <region>, <aws_account_id>, and <my-nginx-repo> with your AWS ECR details. <br>
