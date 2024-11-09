@@ -4,10 +4,9 @@ This project demonstrates how to Dockerize a simple HTML page served by an Nginx
 
 ## Project Structure
 
-## Steps to Build and Run
-
-### 1. Clone the Repository
-# Clone this repository to your local machine:
+### Steps to Build and Run
+#### 1. Clone the Repository
+###### Clone this repository to your local machine:
 
 git clone https://github.com/Shrutika-Panchal/Docker-Nginx-HTML.git
 cd Docker-Nginx-HTML
